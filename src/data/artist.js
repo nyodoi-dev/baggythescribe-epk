@@ -71,4 +71,6 @@ export const artist = {
 
   // Optional background tune. Drop your file at /public/audio/background-tune.mp4 (mp3 also works: change the extension below)
   backgroundTune: '/audio/background-tune.mp4',
+  // true: starts on load if the browser allows it, otherwise on the visitor's first click, tap or key press.
+  autoplayTune: true,
 };

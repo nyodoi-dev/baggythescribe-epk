@@ -12,3 +12,4 @@ Everything lives in `src/data/artist.js`: bio, tracks, streaming links, YouTube 
 
 ## Run
 npm install, then npm start. Build with npm run build.
+- Autoplay: set autoplayTune to false in artist.js if you want visitors to press play themselves

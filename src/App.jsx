@@ -28,7 +28,7 @@ export default function App() {
         <Booking />
       </main>
       <Footer />
-      <BackgroundTune src={artist.backgroundTune} onChange={setTunePlaying} />
+      <BackgroundTune src={artist.backgroundTune} onChange={setTunePlaying} autoplay={artist.autoplayTune} />
     </>
   );
 }
