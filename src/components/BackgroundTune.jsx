@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 
-export default function BackgroundTune({ src }) {
+export default function BackgroundTune({ src, onChange }) {
   const audio = useRef(null);
   const [playing, setPlaying] = useState(false);
   const [missing, setMissing] = useState(false);
@@ -11,12 +11,14 @@ export default function BackgroundTune({ src }) {
     if (playing) {
       a.pause();
       setPlaying(false);
+      if (onChange) onChange(false);
       return;
     }
     try {
       a.volume = 0.35;
       await a.play();
       setPlaying(true);
+      if (onChange) onChange(true);
     } catch (e) {
       setMissing(true);
     }
