@@ -7,7 +7,7 @@ Everything lives in `src/data/artist.js`: bio, tracks, streaming links, YouTube 
 
 ## Add media
 - Photos: the five supplied photos are already in `public/images`. To add more, drop a file there and add a line to `gallery` in `artist.js`
-- Background tune: put `background-tune.mp3` in `public/audio` (visitors press play, browsers block autoplay)
+- Background tune: put `background-tune.mp4` in `public/audio` (visitors press play, browsers block autoplay)
 - Press files: add to `public/press` and set the `file` path in `artist.js`
 
 ## Run

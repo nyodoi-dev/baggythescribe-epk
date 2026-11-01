@@ -69,6 +69,6 @@ export const artist = {
     ],
   },
 
-  // Optional background tune. Drop an mp3 at /public/audio/background-tune.mp3
-  backgroundTune: '/audio/background-tune.mp3',
+  // Optional background tune. Drop your file at /public/audio/background-tune.mp4 (mp3 also works: change the extension below)
+  backgroundTune: '/audio/background-tune.mp4',
 };
