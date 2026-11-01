@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Bio from './components/Bio';
 import Music from './components/Music';
+import PrivateProjects from './components/PrivateProjects';
 import Gallery from './components/Gallery';
 import Press from './components/Press';
 import Booking from './components/Booking';
@@ -18,6 +19,7 @@ export default function App() {
         <Hero />
         <Bio />
         <Music />
+        <PrivateProjects />
         <Gallery />
         <Press />
         <Booking />

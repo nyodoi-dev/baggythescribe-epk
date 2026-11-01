@@ -4,6 +4,7 @@ import { artist } from '../data/artist';
 const LINKS = [
   ['Bio', '#bio'],
   ['Music', '#music'],
+  ['Private projects', '#private'],
   ['Photos', '#photos'],
   ['Press', '#press'],
   ['Booking', '#booking'],

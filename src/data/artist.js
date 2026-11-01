@@ -8,6 +8,7 @@ export const artist = {
 
   // Put the photo files in /public/images with these names. Until then a placeholder shows.
   heroImage: '/images/hero.jpg',
+  heroAlt: 'BaggytheScribe in a white jacket and layered chains, black and white portrait',
 
   bioLead: 'You\u2019re here? You\u2019re blessed.',
   bio: [
@@ -38,7 +39,18 @@ export const artist = {
   // YouTube video id, e.g. 'dQw4w9WgXcQ'. Leave '' to show the placeholder frame.
   videoId: '',
 
-  gallery: ['/images/gallery-1.jpg', '/images/gallery-2.jpg', '/images/gallery-3.jpg', '/images/gallery-4.jpg', '/images/gallery-5.jpg', '/images/gallery-6.jpg'],
+  // Add more photos by dropping files in /public/images and adding a line here.
+  gallery: [
+    { src: '/images/gallery-1.jpg', alt: 'BaggytheScribe laughing, gold teeth in colour against a black and white frame' },
+    { src: '/images/gallery-2.jpg', alt: 'BaggytheScribe in white, posing on a blue trunk' },
+    { src: '/images/gallery-3.jpg', alt: 'BaggytheScribe by the water in black and white, wearing a cross chain' },
+    { src: '/images/gallery-4.jpg', alt: 'Profile of BaggytheScribe looking down, in black and white' },
+  ],
+
+  // Private listening links, shown in the Private projects section.
+  privateProjects: [
+    { title: 'Private project', note: 'Listen on Untitled', url: 'https://untitled.stream/library/project/olPa2p6gydVbzHXXIXKmg' },
+  ],
 
   // Files in /public/press. Set file to null until it exists.
   pressFiles: [

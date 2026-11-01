@@ -16,7 +16,7 @@ export default function Hero() {
               <a href="#press" className="btn btn--line">Download press kit</a>
             </div>
           </div>
-          <Photo className="hero__photo" src={artist.heroImage} alt={`Portrait of ${artist.name}`} label="Artist photo goes here" />
+          <Photo className="hero__photo" src={artist.heroImage} alt={artist.heroAlt} label="Artist photo goes here" />
         </div>
       </div>
     </section>

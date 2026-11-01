@@ -8,8 +8,8 @@ export default function Gallery() {
       <div className="wrap">
         <h2 className="h2">Photos</h2>
         <div className="gallery">
-          {artist.gallery.map((src, i) => (
-            <Photo key={src} src={src} alt={`${artist.name} photo ${i + 1}`} label="Press photo" />
+          {artist.gallery.map(({ src, alt }) => (
+            <Photo key={src} src={src} alt={alt} label="Press photo" />
           ))}
         </div>
       </div>
