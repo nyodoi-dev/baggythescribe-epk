@@ -1,5 +1,6 @@
 import React from 'react';
 import Photo from './Photo';
+import ListenMenu from './ListenMenu';
 import { artist } from '../data/artist';
 
 export default function Hero() {
@@ -12,7 +13,7 @@ export default function Hero() {
             <p className="hero__tag">{artist.tagline}</p>
             <p className="hero__quote">{artist.pullQuote}</p>
             <div className="btns">
-              <a href="#music" className="btn btn--solid">Listen now</a>
+              <ListenMenu />
               <a href="#press" className="btn btn--line">Download press kit</a>
             </div>
           </div>

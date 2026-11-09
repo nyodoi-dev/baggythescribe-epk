@@ -1,5 +1,6 @@
 import React from 'react';
 import Photo from './Photo';
+import GloryRoad from './GloryRoad';
 import { artist } from '../data/artist';
 
 export default function Music() {
@@ -24,11 +25,15 @@ export default function Music() {
             </div>
             <ul className="tracks">
               {tracks.map((t, i) => (
-                <li key={i}><span>{t.title}</span><span>{t.info}</span></li>
+                <li key={i}>
+                  <span>{t.url ? <a href={t.url} target="_blank" rel="noopener noreferrer">{t.title}</a> : t.title}</span>
+                  <span>{t.info}</span>
+                </li>
               ))}
             </ul>
           </div>
         </div>
+        <GloryRoad />
         <div className="video">
           {videoId ? (
             <iframe

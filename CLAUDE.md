@@ -31,6 +31,8 @@ public/
 - Respect `prefers-reduced-motion` for any new animation.
 - Missing media must never break the page: use `Photo`, and treat missing audio as "coming soon".
 - Browsers block autoplay with sound, so the tune starts on load only if allowed, otherwise on the first click, tap or key.
+Avoid all 30 common 'vibecoded' AI design clichés (no glowing orbs, bento grids, glassmorphism, or untouched shadcn defaults)."
+
 
 ## Working efficiently (saves tokens)
 - Start from the structure above. Do not list or read the whole tree.
