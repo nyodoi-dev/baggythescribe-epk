@@ -1,6 +1,7 @@
 import React from 'react';
 import Photo from './Photo';
 import GloryRoad from './GloryRoad';
+import OutSoon from './OutSoon';
 import { artist } from '../data/artist';
 
 export default function Music() {
@@ -33,6 +34,7 @@ export default function Music() {
             </ul>
           </div>
         </div>
+        <OutSoon />
         <GloryRoad />
         <div className="video">
           {videoId ? (
