@@ -61,6 +61,20 @@ export const artist = {
     ],
   },
 
+  // Upcoming release, shown as "Out soon" in the Music section. Set to null to hide it.
+  outSoon: {
+    title: 'Back From Rehab',
+    info: '3-track EP, out soon',
+    cover: '/images/back-from-rehab.jpg',
+    alt: 'Back From Rehab cover: illustrated BaggytheScribe grinning with gold teeth and red roses at the door of Room 025, Treehouse District Rehab Facility',
+    story: [
+      'One of these days, I’ll be okay. Because every one of these days, I’m not okay. I’ve decided to let it all go. All the people that promised to be there but didn’t show, all those that were supposed to show but didn’t, it’s all good. C’est la vie.',
+      'This is my silver jubilee and I am coming home to my Ma. I have made resolutions in the past couple of months that can cover for the two decades and 4 years I have left behind me. I’ve been in crazy spaces, physically, mentally and emotionally. I’ve been with all manner of people from diverse backgrounds and so I’ve heard stories and seen ways of life.',
+      'These experiences psychologically checked me into a rehab. For my own good, I had to go. Things I’ve been running from my whole life have caught up with me but no more running I say. I’m a man now, ready to step up and face them.',
+      'I’m back home now and I have given it all to the water. I mean I have put it all on a tape. A 3-track EP for all those who have waited patiently for my return.',
+    ],
+  },
+
   // Discography, newest first. url is optional and makes the title a link.
   tracks: [
     { title: 'Glory Road (ft. Dixny)', info: 'Single, 2025', url: 'https://open.spotify.com/album/3mOtefHmw0zUeTiKJy8sSL' },
